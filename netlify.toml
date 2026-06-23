@@ -1,0 +1,7 @@
+# Configuração de deploy na Netlify (Next.js)
+[build]
+  command = "next build"
+
+# Runtime oficial do Next.js na Netlify (instalado automaticamente)
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
